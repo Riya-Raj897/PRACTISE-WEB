@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+
+    background: rgb(88, 164, 226);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    overflow: hidden;
+}
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 140px auto;
+
+}
+.login-form{
+    background:rgb(248, 242, 242);
+    width: 100%;
+    max-width:360px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.585);
+
+}
+.login-form .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    height: 45px;
+    background-color: rgb(0, 98, 255);
+    border-radius: 5px 5px 0 0;
+    color: white;
+}
+.login-form form{
+    padding: 30px 10px 25px 10px;
+}
+
+.login-form form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.login-form form .row input{
+    height: 100%;
+    width: 80%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(50, 194, 242);
+    font-size: 16px;
+}
+form .row input:hover{
+    border-color: aqua;
+    
+}
+.login-form form .row i{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    width: 45px;
+    height: 100%;
+    padding:1px;
+    background: rgb(0, 98, 255);
+    border: 1px solid rgb(0, 98, 255) ;
+}
+.login-form form .row-button input{
+    height:45px;
+    width: 100%;
+    color: white;
+    padding-left: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(0, 98, 255);
+    border: 1px solid rgb(0, 98, 255) ;
+    cursor: pointer;
+}
+form .row-button input:hover{
+    background: lightblue;
+    letter-spacing: 2px;
+}
+.login-form form .pass {
+    margin: 0 0 20px 0;
+}
+.login-form form .pass a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.login-form form .pass a{
+    color: rgb(64, 0, 255);
+    font-size: 19px;
+    text-decoration: none;
+}
+.login-form form .signup {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+.login-form form .signup a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.login-form form .signup a{
+    color: rgb(64, 0, 255);
+    font-size: 19px;
+    text-decoration: none;
+}  
+.login-form form .signup p{
+    font-size:19px ;
+}
